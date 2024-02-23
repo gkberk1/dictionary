@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap",
+            "AGGRO" : "agresifleşmek/sinirlenmek", 
+            "ROFL" : "bir şakaya karşılık cevap",
+            "CREEPY" : "korkunç",
+            "SHEESH" : "onaylamamak",
+            }
+while True:
+    word =input("Anlamadığınız bir kelimeyi yazabilirsİniz").upper()
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("aradığınnız kelime sözlükte yok ")
